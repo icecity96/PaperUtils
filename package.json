@@ -17,10 +17,5 @@
     "cz-customizable": {
       "config": ".cz-config.js"
     }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E $HUSKY_GIT_PARAMS"
-    }
   }
 }
