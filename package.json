@@ -1,7 +1,6 @@
 {
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
-    "@commitlint/config-angular": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.2",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.3.0",
@@ -17,7 +16,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E $HUSKY_GIT_PARAMS"
     }
   }
 }
