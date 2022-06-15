@@ -31,4 +31,6 @@ def t_test_p_value(x1, x2, s1, s2, n1, n2):
         free_dom = ((s1 ** 2) / n1 + (s2 ** 2) / n2) ** 2 / ((s1 ** 2 / n1)**2/(n1-1) + (s2 ** 2 / n2)**2/(n2-1))
     p = stats.t.sf(t, free_dom)
     return p < 0.05
-    
+
+def  func():
+    return 1 
