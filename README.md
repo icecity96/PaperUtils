@@ -6,6 +6,7 @@ This script auto summarise all experiment results into a latex table. It will re
 
 ### Usage
 
+
 ```bash
 python results2table.py --file <path/to/file> --sep ',' --model '[name1, name2]' --model_col 'model_col_name' --dataset 'dataset_col' --metric '[metricname1,metricname2,metric3]' --precision 4 --output <path/to/file>
 ```
